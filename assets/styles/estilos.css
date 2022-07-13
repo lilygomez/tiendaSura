@@ -1,0 +1,33 @@
+.banner{
+    background-image: url("../img/fotobanner.jpg");
+    padding: 10% 30% 30% 8%;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+}
+
+.banner::after{
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+
+.fuente{
+    font-family: 'Berkshire Swash', cursive;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Marck Script', cursive;
+    font-family: 'Merienda', cursive;
+    font-family: 'Rock Salt', cursive;
+    font-family: 'Splash', cursive;
+    color: azure;
+    
+}
